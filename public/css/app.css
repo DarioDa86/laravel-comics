@@ -138,6 +138,30 @@ body .load-btn a {
   font-weight: 700;
   text-decoration: none;
 }
+body section.icons {
+  background-color: #0282f9;
+}
+body section.icons .row-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+body section.icons .row-icons li {
+  display: flex;
+  align-items: center;
+}
+body section.icons .row-icons li a {
+  margin-left: 10px;
+  color: #fff;
+}
+body section.icons .row-icons li a img {
+  height: 55px;
+}
+body section.icons .row-icons li:last-child img {
+  height: 40px;
+}
 
 footer {
   background-image: url("../images/footer-bg.jpg");

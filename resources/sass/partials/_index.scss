@@ -52,5 +52,35 @@ body {
                 text-decoration: none;
         }
     }
+    section.icons {
+        background-color: $cyanBandColor;
+
+            .row-icons {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 0;
+                margin-top: 20px;
+        
+                li {
+                    display: flex;
+                    align-items: center;
+        
+                    a {
+                        margin-left: 10px;
+                        color: #fff;
+        
+                    }
+        
+                        a img {
+                            height: 55px;
+                        }
+                        
+                        &:last-child img {
+                            height: 40px;
+                        }
+                }
+            }
     
+    }
 }
