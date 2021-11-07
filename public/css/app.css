@@ -82,6 +82,54 @@ header .hero-img {
   height: 350px;
 }
 
+body {
+  background-color: #1c1c1c;
+}
+body .comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 0;
+  color: #fff;
+  position: relative;
+}
+body .comics .tag-series {
+  position: absolute;
+  transform: translate(-10px, -55px);
+  padding: 10px 20px;
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+body .comics li {
+  list-style: none;
+}
+body .comics li .box-img img.cover-img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+body .comics .comic {
+  width: 15%;
+  margin: 20px 0;
+}
+body .load-btn {
+  display: flex;
+  justify-content: center;
+}
+body .load-btn a {
+  padding: 8px 60px;
+  color: #fff;
+  background-color: #0282f9;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
