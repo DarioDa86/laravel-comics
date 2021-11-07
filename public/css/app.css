@@ -13,6 +13,15 @@ body {
   margin: 0 auto;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #959595;
+}
+
 header {
   font-weight: 700;
   background-color: #fff;
@@ -128,6 +137,67 @@ body .load-btn a {
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
+}
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .topFooter {
+  display: flex;
+}
+footer .topFooter .footerLeft {
+  display: flex;
+  color: #fff;
+  width: 30%;
+  margin: 30px 0;
+}
+footer .topFooter .footerLeft .col-1 {
+  width: 33.3333333333%;
+}
+footer .topFooter .footerLeft .col-2 {
+  width: 33.3333333333%;
+}
+footer .topFooter .footerLeft .col-3 {
+  width: 33.3333333333%;
+}
+footer .topFooter .footerRight {
+  width: 70%;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+footer .bgFooter {
+  background-color: #303030;
+}
+footer .bgFooter .bottomFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+footer .bgFooter .bottomFooter .signUp-Btn button {
+  padding: 15px 10px;
+  border-radius: 0;
+  border: 3px solid #0282f9;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+footer .bgFooter .bottomFooter .socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0282f9;
+}
+footer .bgFooter .bottomFooter .socialIcons img {
+  margin: 0 10px;
+}
+footer .bgFooter .bottomFooter .socialIcons .textIcons {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
 }
 
 /*!

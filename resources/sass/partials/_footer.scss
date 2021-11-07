@@ -1,0 +1,74 @@
+footer {
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .topFooter {
+        display: flex;
+
+        .footerLeft {
+            display: flex;
+            color: #fff;
+            width: 30%;
+            margin: 30px 0;
+
+            .col-1 {
+                width: calc(100% / 3);
+            }
+
+            .col-2 {
+                width: calc(100% / 3);
+            }
+
+            .col-3 {
+                width: calc(100% / 3);
+            }
+        }
+
+        .footerRight {
+            width: 70%;
+            background-image: url("../images/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+    }
+
+    .bgFooter {
+        background-color: $footerBottomBackColor;
+
+        .bottomFooter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+
+            .signUp-Btn {
+                button {
+                    padding: 15px 10px;
+                    border-radius: 0;
+                    border: 3px solid $cyanBandColor;
+                    background-color: transparent;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+
+            .socialIcons {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: $cyanBandColor;
+
+                img {
+                    margin: 0 10px;
+                }
+
+                .textIcons {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
